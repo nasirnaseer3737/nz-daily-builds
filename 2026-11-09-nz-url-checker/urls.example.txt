@@ -1,0 +1,4 @@
+# nzgenix.digital
+https://example.com
+# Lines starting with # are comments and are skipped.
+# Add one URL per line, with or without https://
