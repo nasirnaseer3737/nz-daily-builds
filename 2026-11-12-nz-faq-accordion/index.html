@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NZ FAQ Accordion — demo</title>
+  <link rel="stylesheet" href="faq-accordion.css">
+  <style>
+    body { margin: 0; padding: 32px 16px; background: #eef1f6; }
+    h1 { max-width: 760px; margin: 0 auto 8px; font-family: system-ui, sans-serif; }
+    .intro { max-width: 760px; margin: 0 auto 24px; font-family: system-ui, sans-serif; color: #5b6472; }
+  </style>
+</head>
+<body>
+  <h1>Frequently asked questions</h1>
+  <p class="intro">Try the search box, open an answer, or visit this page with
+    <code>#faq-how-much-does-a-website-cost</code> in the URL to deep-link straight to an answer.</p>
+
+  <div class="nz-faq" data-allow-multiple="false">
+    <input class="nz-faq-search" type="search" placeholder="Search questions…" aria-label="Search questions">
+
+    <div class="nz-faq-tools">
+      <button type="button" data-nz-faq-expand-all>Expand all</button>
+      <button type="button" data-nz-faq-collapse-all>Collapse all</button>
+    </div>
+
+    <div class="nz-faq-item">
+      <h3><button class="nz-faq-question" type="button">How much does a website cost?</button></h3>
+      <div class="nz-faq-answer" hidden>
+        <p>It depends on scope. A small business site with a handful of pages is
+        very different from a WooCommerce store or a booking system. Every project
+        gets a fixed quote before work starts — no hourly surprises.</p>
+      </div>
+    </div>
+
+    <div class="nz-faq-item">
+      <h3><button class="nz-faq-question" type="button">How long does it take to build?</button></h3>
+      <div class="nz-faq-answer" hidden>
+        <p>Most small business websites launch in 1–2 weeks once content is ready.
+        Larger sites with custom features take 3–6 weeks. You get a firm launch
+        date in the quote, not a vague estimate.</p>
+      </div>
+    </div>
+
+    <div class="nz-faq-item">
+      <h3><button class="nz-faq-question" type="button">Will my site rank on Google?</button></h3>
+      <div class="nz-faq-answer" hidden>
+        <p>Every site ships with on-page SEO: proper headings, meta tags, sitemaps,
+        schema markup and fast loading. Rankings themselves depend on competition
+        and content over time — nobody honest can guarantee position one.</p>
+      </div>
+    </div>
+
+    <div class="nz-faq-item">
+      <h3><button class="nz-faq-question" type="button">Can I update the site myself?</button></h3>
+      <div class="nz-faq-answer" hidden>
+        <p>Yes. Sites are built on WordPress with an editor you can use without
+        touching code, and you get a short video walkthrough showing exactly how
+        to edit text, images and pages.</p>
+      </div>
+    </div>
+
+    <div class="nz-faq-item">
+      <h3><button class="nz-faq-question" type="button">Do you offer ongoing support?</button></h3>
+      <div class="nz-faq-answer" hidden>
+        <p>Yes — monthly care plans cover updates, backups, security checks and
+        small content changes, so the site stays fast and safe after launch.</p>
+      </div>
+    </div>
+
+    <p class="nz-faq-empty" hidden>No questions match your search. Try different words.</p>
+  </div>
+
+  <script src="faq-accordion.js"></script>
+</body>
+</html>

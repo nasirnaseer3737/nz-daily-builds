@@ -13,5 +13,6 @@ Owner: [nasirnaseer3737](https://github.com/nasirnaseer3737)
 | 2026-11-09 | [nz-url-checker](2026-11-09-nz-url-checker/) | Python stdlib CLI that checks a list of URLs and reports status, redirects and response time, with CSV output |
 | 2026-11-10 | [nz-meta-tags](2026-11-10-nz-meta-tags/) | Node.js stdlib CLI that generates SEO meta tags (Open Graph, Twitter Card, JSON-LD) and checks existing pages |
 | 2026-11-11 | [nz-simple-redirects](2026-11-11-nz-simple-redirects/) | WordPress plugin: lightweight 301/302 redirect manager with exact and /* wildcard rules, admin screen under Settings |
+| 2026-11-12 | [nz-faq-accordion](2026-11-12-nz-faq-accordion/) | Dependency-free accessible FAQ accordion with live search, single/multi-open modes and hash deep-linking (HTML/CSS/JS + demo) |
 
 Each build folder has its own README, source code and tests.
