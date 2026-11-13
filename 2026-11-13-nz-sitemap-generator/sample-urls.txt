@@ -1,0 +1,9 @@
+# sample-urls.txt — example input for nz-sitemap-generator
+# One URL per line. Optional lastmod after a comma. Lines starting with # are ignored.
+https://example.com/,2026-11-13
+https://example.com/about,2026-11-01
+https://example.com/services/wordpress-development
+https://example.com/services/seo
+https://example.com/blog/wordpress-7-2-release,2026-11-12
+https://example.com/blog/ai-seo-tips,2026-11-10
+https://example.com/contact
