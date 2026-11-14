@@ -15,5 +15,6 @@ Owner: [nasirnaseer3737](https://github.com/nasirnaseer3737)
 | 2026-11-11 | [nz-simple-redirects](2026-11-11-nz-simple-redirects/) | WordPress plugin: lightweight 301/302 redirect manager with exact and /* wildcard rules, admin screen under Settings |
 | 2026-11-12 | [nz-faq-accordion](2026-11-12-nz-faq-accordion/) | Dependency-free accessible FAQ accordion with live search, single/multi-open modes and hash deep-linking (HTML/CSS/JS + demo) |
 | 2026-11-13 | [nz-sitemap-generator](2026-11-13-nz-sitemap-generator/) | Python stdlib CLI that builds XML sitemaps from a URL list or a folder of HTML files, with lastmod, priority/changefreq heuristics and automatic splitting + sitemap index |
+| 2026-11-14 | [nz-ai-lead-scorer](2026-11-14-nz-ai-lead-scorer/) | AI-powered lead scorer: Python stdlib CLI that scores CSV leads 0–100 (email, phone, website, size, industry, source, budget, TCPA consent) with a Gemini AI outreach angle per lead and a labelled mock fallback |
 
 Each build folder has its own README, source code and tests.
