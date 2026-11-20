@@ -1,0 +1,263 @@
+{
+  "tool": "nz-ai-seo-auditor",
+  "version": "1.0.0",
+  "keyword": "WordPress developer",
+  "ai_mode": "MOCK (offline fallback)",
+  "pages": [
+    {
+      "source": "sample_pages/bad-page.html",
+      "keyword": "WordPress developer",
+      "score": 32,
+      "grade": "F",
+      "word_count": 11,
+      "readability": 85.9,
+      "images": 2,
+      "images_missing_alt": 2,
+      "links_internal": 2,
+      "links_external": 0,
+      "checks": [
+        {
+          "check": "Title tag",
+          "status": "warn",
+          "detail": "Title is 4 chars (too short, aim 30-60).",
+          "weight": 2,
+          "fix": "Expand the title to 30-60 chars, lead with the keyword."
+        },
+        {
+          "check": "Meta description",
+          "status": "fail",
+          "detail": "No meta description.",
+          "weight": 3,
+          "fix": "Add a 120-160 char meta description with a call to action."
+        },
+        {
+          "check": "H1 heading",
+          "status": "warn",
+          "detail": "2 H1 tags found (aim for exactly one).",
+          "weight": 2,
+          "fix": "Keep one H1; demote the others to H2."
+        },
+        {
+          "check": "Heading order",
+          "status": "warn",
+          "detail": "Heading levels are skipped (e.g. H1 straight to H3).",
+          "weight": 1,
+          "fix": "Use headings in order: H1, then H2, then H3."
+        },
+        {
+          "check": "Image alt text",
+          "status": "fail",
+          "detail": "2 of 2 images have no alt text.",
+          "weight": 2,
+          "fix": "Write descriptive alt text (under 125 chars) for every image."
+        },
+        {
+          "check": "Canonical URL",
+          "status": "warn",
+          "detail": "No canonical link tag.",
+          "weight": 1,
+          "fix": "Add <link rel=\"canonical\" href=\"...\"> with the preferred URL."
+        },
+        {
+          "check": "Social tags (OG/Twitter)",
+          "status": "warn",
+          "detail": "Missing social tags: og:title, og:description, og:image, twitter:card, twitter:title.",
+          "weight": 1,
+          "fix": "Add Open Graph + Twitter Card tags so shares look right."
+        },
+        {
+          "check": "Schema.org markup",
+          "status": "warn",
+          "detail": "No JSON-LD structured data found.",
+          "weight": 1,
+          "fix": "Add JSON-LD schema (e.g. LocalBusiness, Article or WebPage)."
+        },
+        {
+          "check": "Content length",
+          "status": "warn",
+          "detail": "Only 11 words of body text (aim 300+).",
+          "weight": 2,
+          "fix": "Add useful content \u2014 aim for at least 300 words on the topic."
+        },
+        {
+          "check": "Links",
+          "status": "warn",
+          "detail": "2 placeholder/broken-looking links (2 internal, 0 external).",
+          "weight": 1,
+          "fix": "Fix or remove placeholder links (#, javascript:)."
+        },
+        {
+          "check": "Readability",
+          "status": "pass",
+          "detail": "Flesch reading ease 85.9.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Target keyword",
+          "status": "fail",
+          "detail": "\"WordPress developer\" appears 0x in body (density 0.0%), in title: no, in H1: no.",
+          "weight": 3,
+          "fix": "Use \"WordPress developer\" in the title, H1 and naturally in the body."
+        }
+      ],
+      "failed_checks": [
+        "Meta description",
+        "Image alt text",
+        "Target keyword"
+      ],
+      "warning_checks": [
+        "Title tag",
+        "H1 heading",
+        "Heading order",
+        "Canonical URL",
+        "Social tags (OG/Twitter)",
+        "Schema.org markup",
+        "Content length",
+        "Links"
+      ],
+      "fixes": [
+        "Add a 120-160 char meta description with a call to action.",
+        "Write descriptive alt text (under 125 chars) for every image.",
+        "Use \"WordPress developer\" in the title, H1 and naturally in the body.",
+        "Expand the title to 30-60 chars, lead with the keyword.",
+        "Keep one H1; demote the others to H2.",
+        "Use headings in order: H1, then H2, then H3.",
+        "Add <link rel=\"canonical\" href=\"...\"> with the preferred URL.",
+        "Add Open Graph + Twitter Card tags so shares look right.",
+        "Add JSON-LD schema (e.g. LocalBusiness, Article or WebPage).",
+        "Add useful content \u2014 aim for at least 300 words on the topic.",
+        "Fix or remove placeholder links (#, javascript:)."
+      ],
+      "ai_suggestions": {
+        "mode": "MOCK (offline fallback \u2014 no AI API key set)",
+        "suggestions": [
+          "Add a 120-160 char meta description with a call to action.",
+          "Write descriptive alt text (under 125 chars) for every image.",
+          "Use \"WordPress developer\" in the title, H1 and naturally in the body.",
+          "Expand the title to 30-60 chars, lead with the keyword.",
+          "Keep one H1; demote the others to H2.",
+          "Use headings in order: H1, then H2, then H3.",
+          "Add <link rel=\"canonical\" href=\"...\"> with the preferred URL.",
+          "Add Open Graph + Twitter Card tags so shares look right.",
+          "Add JSON-LD schema (e.g. LocalBusiness, Article or WebPage).",
+          "Add useful content \u2014 aim for at least 300 words on the topic.",
+          "Fix or remove placeholder links (#, javascript:)."
+        ]
+      }
+    },
+    {
+      "source": "sample_pages/good-page.html",
+      "keyword": "WordPress developer",
+      "score": 92,
+      "grade": "A",
+      "word_count": 234,
+      "readability": 60.9,
+      "images": 2,
+      "images_missing_alt": 0,
+      "links_internal": 2,
+      "links_external": 1,
+      "checks": [
+        {
+          "check": "Title tag",
+          "status": "pass",
+          "detail": "Title is 59 chars.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Meta description",
+          "status": "pass",
+          "detail": "Meta description is 154 chars.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "H1 heading",
+          "status": "pass",
+          "detail": "One H1: \"WordPress Developer in Rawalpindi\"",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Heading order",
+          "status": "pass",
+          "detail": "5 headings in order.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Image alt text",
+          "status": "pass",
+          "detail": "All 2 images have alt text.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Canonical URL",
+          "status": "pass",
+          "detail": "Canonical set: https://nzgenix.digital/wordpress-developer/",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Social tags (OG/Twitter)",
+          "status": "pass",
+          "detail": "Open Graph and Twitter Card tags present.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Schema.org markup",
+          "status": "pass",
+          "detail": "JSON-LD structured data found.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Content length",
+          "status": "warn",
+          "detail": "Only 234 words of body text (aim 300+).",
+          "weight": 2,
+          "fix": "Add useful content \u2014 aim for at least 300 words on the topic."
+        },
+        {
+          "check": "Links",
+          "status": "pass",
+          "detail": "2 internal, 1 external links.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Readability",
+          "status": "pass",
+          "detail": "Flesch reading ease 60.9.",
+          "weight": 1,
+          "fix": ""
+        },
+        {
+          "check": "Target keyword",
+          "status": "pass",
+          "detail": "\"WordPress developer\" appears 5x in body (density 2.14%), in title: yes, in H1: yes.",
+          "weight": 1,
+          "fix": ""
+        }
+      ],
+      "failed_checks": [],
+      "warning_checks": [
+        "Content length"
+      ],
+      "fixes": [
+        "Add useful content \u2014 aim for at least 300 words on the topic."
+      ],
+      "ai_suggestions": {
+        "mode": "MOCK (offline fallback \u2014 no AI API key set)",
+        "suggestions": [
+          "Add useful content \u2014 aim for at least 300 words on the topic.",
+          "Page is in good shape \u2014 re-check after the next content update."
+        ]
+      }
+    }
+  ],
+  "errors": []
+}
